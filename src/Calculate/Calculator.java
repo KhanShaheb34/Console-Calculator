@@ -89,12 +89,11 @@ public class Calculator {
 
     private double parseInt(String command) {
         double temp = 0;
-        for (;;) {
+        do {
             temp *= 10;
-            temp += command.charAt(position)-'0';
+            temp += command.charAt(position) - '0';
             position++;
-            if(!isInt(command.charAt(position))) break;
-        }
+        } while (isInt(command.charAt(position)));
         return temp;
     }
 
