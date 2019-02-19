@@ -15,6 +15,7 @@ Operations available in this calculator are:
 * Cotangent
 * Secant
 * Cosecant
+
 More operations will be added later.
 
 ### Major Drawback
